@@ -14,15 +14,21 @@ The model itself is an XGBoostClassifier from the automl.client.core.common.mode
 
 ## Results
 As we can see,
-![PR_Curve](https://github.com/abonafede/autoML/tree/main/assets/prcurve.png)
+
+<img width="479" alt="prcurve" src="https://github.com/abonafede/autoML/assets/60437669/0ad28241-dfbc-4f5a-bbcf-9b853e3a601e">
+
 our average precision and recall scores are near perfect.
 
 Our ROC score,
-![ROC](https://github.com/abonafede/autoML/tree/main/assets/poc.png)
+
+<img width="480" alt="poc" src="https://github.com/abonafede/autoML/assets/60437669/23fcabca-4e72-4e20-a0e3-70bbb7ce5479">
+
 is also near perfect.
 
 And our confusion matrix,
-![Confusion](https://github.com/abonafede/autoML/tree/main/assets/confusion.png)
+
+<img width="496" alt="confusion" src="https://github.com/abonafede/autoML/assets/60437669/45ea4a19-9cf9-4b13-b8be-cfb452108875">
+
 is almost 100% accurate.
 
 These metrics were calculated on 20% test set, with .991 accuracy and .999 AUC.
